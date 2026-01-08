@@ -1027,6 +1027,10 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 2px;
   }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-b-2 {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
@@ -1051,6 +1055,9 @@
   }
   .border-gray-400 {
     border-color: var(--color-gray-400);
+  }
+  .border-primary {
+    border-color: var(--color-primary);
   }
   .border-transparent {
     border-color: transparent;
@@ -1395,6 +1402,9 @@
   .text-\[\#4737FF\] {
     color: #4737FF;
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .text-blue-500 {
     color: var(--color-blue-500);
   }
@@ -1427,6 +1437,9 @@
   }
   .text-pink-600 {
     color: var(--color-pink-600);
+  }
+  .text-primary {
+    color: var(--color-primary);
   }
   .text-purple-600 {
     color: var(--color-purple-600);
